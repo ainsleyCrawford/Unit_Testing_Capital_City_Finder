@@ -197,5 +197,7 @@ var cityFinder = {
     Zambia: "Lusaka",
     Zimbabwe: "Harare"
 };
-
-console.log(cityFinder.Jamaica);
+function returnCapital(state) {
+    return cityFinder[state];
+}
+console.log(returnCapital("Jamaica"));
