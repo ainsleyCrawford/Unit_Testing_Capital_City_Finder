@@ -10,4 +10,6 @@ Unlike other programming languages, JavaScript cannot create associative arrays,
     }
 Thus, supplying the input *Malaysia* returns the value *Kuala Lumpur*.
 ## Unit Test Planning: How to Test the Capital Finder Module
+capital finder module = object and function i.e. app.js file
 each continent to ensure extensive coverage... 
+## Test Cases
