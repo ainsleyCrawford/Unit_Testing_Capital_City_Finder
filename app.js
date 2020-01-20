@@ -178,7 +178,7 @@ var cityFinder = {
     Timor_Leste: "Dii",
     Togo: "Lomé",
     Tonga: "Nukuʻalofa",
-    Trinidad_and_Tobago: "Port of Spain",
+    "Trinidad and Tobago": "Port of Spain",
     Tunisia: "Tunis",
     Turkey: "Ankara",
     Turkmenistan: "Ashgabat",
@@ -200,4 +200,4 @@ var cityFinder = {
 function returnCapital(state) {
     return cityFinder[state];
 }
-console.log(returnCapital("Jamaica"));
+module.exports = returnCapital

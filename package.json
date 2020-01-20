@@ -1,0 +1,23 @@
+{
+  "name": "city-finder",
+  "version": "1.0.0",
+  "description": "The aim of this project is to gain experience with Jest, a JavaScript unit testing framework.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ainsleyCrawford/Capital_City_Finder_with_Unit_Tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ainsleyCrawford/Capital_City_Finder_with_Unit_Tests/issues"
+  },
+  "homepage": "https://github.com/ainsleyCrawford/Capital_City_Finder_with_Unit_Tests#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
