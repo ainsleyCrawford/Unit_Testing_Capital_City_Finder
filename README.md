@@ -32,42 +32,42 @@ Jest is an open-source library that simplifies performing tests in JavaScript. I
 
 |Test Case ID |Test Data    |Expected Outcome|Actual Outcome|Status|
 |:-----------:|:-----------:|:--------------:|:------------:|:----:|
-|Af-01        |"Kyrgyzstan" |"Bishkek"       |"Bishkek"     |Passed|
-|Af-02        |"South Korea"|"Seoul"         |"Seoul"       |Passed|
-|Af-03        |"Taiwan"     |"Taipei"        |"Taipei"      |Passed|
+|As-01        |"Kyrgyzstan" |"Bishkek"       |"Bishkek"     |Passed|
+|As-02        |"South Korea"|"Seoul"         |"Seoul"       |Passed|
+|As-03        |"Taiwan"     |"Taipei"        |"Taipei"      |Passed|
 
 **Test Condition ID:** Eu  
 **Test Condition Description:** Verify that the program returns the correct capital city for a given European country or province.
 
 |Test Case ID |Test Data               |Expected Outcome|Actual Outcome|Status|
 |:-----------:|:----------------------:|:--------------:|:------------:|:----:|
-|Af-01        |"Bosnia and Herzegovina"|"Sarajevo"      |"Sarajevo"    |Passed|
-|Af-02        |"Cyprus"                |"Nicosia"       |"Nicosia"     |Passed|
-|Af-03        |"Lithuania"             |"Vilnius"       |"Vilnius"     |Passed|
+|Eu-01        |"Bosnia and Herzegovina"|"Sarajevo"      |"Sarajevo"    |Passed|
+|Eu-02        |"Cyprus"                |"Nicosia"       |"Nicosia"     |Passed|
+|Eu-03        |"Lithuania"             |"Vilnius"       |"Vilnius"     |Passed|
 
 **Test Condition ID:** No  
 **Test Condition Description:** Verify that the program returns the correct capital city for a given North American country or province.
 
 |Test Case ID |Test Data   |Expected Outcome|Actual Outcome|Status|
 |:-----------:|:----------:|:--------------:|:------------:|:----:|
-|Af-01        |"Cuba"      |"Havana"        |"Havana"      |Passed|
-|Af-02        |"Jamaica"   |"Kingston"      |"Kingston"    |Passed|
-|Af-03        |"Quebec"    |"Quebec City"   |"Quebec City" |Passed|
+|No-01        |"Cuba"      |"Havana"        |"Havana"      |Passed|
+|No-02        |"Jamaica"   |"Kingston"      |"Kingston"    |Passed|
+|No-03        |"Quebec"    |"Quebec City"   |"Quebec City" |Passed|
 
 **Test Condition ID:** So  
 **Test Condition Description:** Verify that the program returns the correct capital city for a given South American country or province.
 
 |Test Case ID |Test Data   |Expected Outcome|Actual Outcome|Status|
 |:-----------:|:----------:|:--------------:|:------------:|:----:|
-|Af-01        |"Liberia"   |"Monrovia"      |"Monrovia"    |Passed|
-|Af-02        |"Mozambique"|"Maputo"        |"Maputo"      |Passed|
-|Af-03        |"Senegal"   |"Dakar"         |"Dakar"       |Passed|
+|So-01        |"Guyana"    |"Georgetown"    |"Georgetown"  |Passed|
+|So-02        |"Paraguay"  |"Asunción"      |"Asunción"    |Passed|
+|So-03        |"Suriname"  |"Paramaribo"    |"Paramaribo"  |Passed|
 
 **Test Condition ID:** Oc  
 **Test Condition Description:** Verify that the program returns the correct capital city for a given Oceanian country or province.
 
-|Test Case ID |Test Data   |Expected Outcome|Actual Outcome|Status|
-|:-----------:|:----------:|:--------------:|:------------:|:----:|
-|Af-01        |"Liberia"   |"Monrovia"      |"Monrovia"    |Passed|
-|Af-02        |"Mozambique"|"Maputo"        |"Maputo"      |Passed|
-|Af-03        |"Senegal"   |"Dakar"         |"Dakar"       |Passed|
+|Test Case ID |Test Data    |Expected Outcome|Actual Outcome|Status|
+|:-----------:|:-----------:|:--------------:|:------------:|:----:|
+|Oc-01        |"Australia"  |"Canberra"      |"Canberra"    |Passed|
+|Oc-02        |"New Zealand"|"Wellington"    |"Wellington"  |Passed|
+|Oc-03        |"Vanuatu"    |"Port Vila"     |"Port Vila"   |Passed|
