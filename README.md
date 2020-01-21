@@ -13,5 +13,5 @@ Thus, supplying the input *Malaysia* returns the value *Kuala Lumpur*. The combi
 To ensure the extensiveness of the capital finder module (i.e. app.js file) test data should cover a collection of geographically and culturally disparate states. This approach aknowledges the risk of a particular cultural bias, especially a pro-Occidental or a pro-Anglo-Saxon one, during development resulting in a disregard for dissimilar countries. For this reason, it is advantageous that each test condition concern one of the six inhabited continents: Africa, Asia, Europe, North America, South America and Oceania.
 
 Jest is an open-source library that simplifies performing tests in JavaScript. In this project Jest is installed and the test script of package.json is set to `"jest"` so that Jest runs when `npm test` is entered in the command line. The statement `module.exports = returnCapital` exports the function to be tested from the app.js file. The function is thn imported into the newly created app.test.js file via `const returnCapital = require('./app')`. The Jest method  
-`test('', () => { expect().toBe() })` verifies expected output to actual output for a given input.
+`test('', () => { expect().toBe() })` verifies expected output against actual output for a given input.
 ## Test Cases
