@@ -1,5 +1,5 @@
 # Unit Testing a Capital City Finder Program
-Through this project I sought to deepen my experience in component testing and to discover Jest, a JavaScript unit testing framework.
+Through this project I sought to deepen my experience in component testing and to discover Jest, a JavaScript testing framework.
 ## Test Basis: Capital City Finder
 The 'Capital City Finder' program accepts a state (country or region) as an argument and returns the corresponding capital city. The program must be extensive, covering every United Nations–⁠recognised country, in addition to many regions, e.g., the capital of the Dutch province of South Holland is Rotterdam.
 ## Program Specification: Capital Finder Module
@@ -12,5 +12,5 @@ Thus, supplying the input *Malaysia* returns the value *Kuala Lumpur*. The combi
 ## Unit Test Planning: How to Test the Program
 To ensure the extensiveness of the capital finder module (i.e. app.js file) test data should cover a collection of geographically and culturally disparate states. This approach aknowledges the risk of a particular cultural bias, especially a pro-Occidental or a pro-Anglo-Saxon one, during development resulting in a disregard for dissimilar countries. For this reason, it is advantageous that each test condition concern one of the six inhabited continents: Africa, Asia, Europe, North America, South America and Oceania.
 
-....export
+Jest is an open-source library that simplifies performing tests in JavaScript. In this project Jest is installed and the test script of package.json is set to `"jest"` so that Jest runs when `npm test` is entered in the command line. The statement `module.exports = returnCapital` exports the function to be tested from the app.js file. The function is thn imported into the newly created app.test.js file via `const returnCapital = require('./app')`. The Jest method `test('', () => { expect().toBe() })` verifies expected output to actual output for a given input.
 ## Test Cases
