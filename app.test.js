@@ -12,7 +12,7 @@ test('Returns the capital of a given North American country or region.', () => {
 })
 test('Returns the capital of a given South American country or region.', () => {
     expect(returnCapital("Guyana")).toBe("Georgetown")
-    expect(returnCapital("Quebec")).toBe("Quebec City")
+    expect(returnCapital("Paraguay")).toBe("Asunción")
     expect(returnCapital("Suriname")).toBe("Paramaribo")
 })
 test('Returns the capital of a given African country or region.', () => {
