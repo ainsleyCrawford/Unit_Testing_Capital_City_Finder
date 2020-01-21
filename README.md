@@ -10,6 +10,7 @@ Unlike other programming languages, JavaScript cannot create associative arrays,
     }
 Thus, supplying the input *Malaysia* returns the value *Kuala Lumpur*. The combination of the `cityFinder` object and the `returnCapital(state)` function may be thought of collectively as the capital finder module.
 ## Unit Test Planning: How to Test the Program
-To ensure the extensiveness of the capital finder module (i.e. app.js file) test data should cover a collection of geographically and culturally disparate states. This approach aknowledges the risk of a particular cultural bias, especially a pro-Occidental or a pro-Anglo-Saxon one, during development resulting in a disregard for dissimilar countries. For this reason, it is advantageous that each test condition concern one of the six inhabited continents. 
-....
+To ensure the extensiveness of the capital finder module (i.e. app.js file) test data should cover a collection of geographically and culturally disparate states. This approach aknowledges the risk of a particular cultural bias, especially a pro-Occidental or a pro-Anglo-Saxon one, during development resulting in a disregard for dissimilar countries. For this reason, it is advantageous that each test condition concern one of the six inhabited continents: Africa, Asia, Europe, North America, South America and Oceania.
+
+....export
 ## Test Cases
