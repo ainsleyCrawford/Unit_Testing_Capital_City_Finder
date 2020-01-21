@@ -20,24 +20,22 @@ Jest is an open-source library that simplifies performing tests in JavaScript. I
 **Creation Date:** 21/01/20  
 **Test Condition ID:** Af  
 **Test Condition Description:** Verify that the program returns the correct capital city for a given African country or province.  
-**High-Level Test Case:** ...  
-
+|Test Case ID |Test Data   |Expected Outcome|Actual Outcome|Status|
+|:-----------:|:----------:|:--------------:|:------------:|:----:|
+|Af-01        |"Liberia"   |"Monrovia"      |"Monrovia"    |Passed|
+|Af-02        |"Mozambique"|"Maputo"        |"Maputo"      |Passed|
+|Af-03        |"Senegal"   |"Dakar"         |"Dakar"       |Passed|
 **Test Condition ID:** As  
 **Test Condition Description:** Verify that the program returns the correct capital city for a given Asian country or province.  
-**High-Level Test Case:** ...  
 
 **Test Condition ID:** Eu  
 **Test Condition Description:** Verify that the program returns the correct capital city for a given European country or province.  
-**High-Level Test Case:** ...  
 
 **Test Condition ID:** No  
-**Test Condition Description:** Verify that the program returns the correct capital city for a given North American country or province.  
-**High-Level Test Case:** ...  
+**Test Condition Description:** Verify that the program returns the correct capital city for a given North American country or province.   
 
 **Test Condition ID:** So  
 **Test Condition Description:** Verify that the program returns the correct capital city for a given South American country or province.  
-**High-Level Test Case:** ...  
 
 **Test Condition ID:** Oc  
 **Test Condition Description:** Verify that the program returns the correct capital city for a given Oceanian country or province.  
-**High-Level Test Case:** ...
